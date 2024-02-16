@@ -16,7 +16,7 @@ class ARM(DHRobot):
                 alpha=0.0,
                 qlim=np.array([-np.pi/2,np.pi/2]),
                 #mass of first portion of the arm
-                m=2,
+                m=1,
                 I=[
                     7.03370e-01,
                     7.06610e-01,
@@ -34,7 +34,7 @@ class ARM(DHRobot):
                 alpha=-np.pi/2,
                 qlim=np.array([-np.pi/2,np.pi/2]),
                 #mass of part 2
-                m=2,
+                m=1,
                 I=[
                     7.03370e-01,
                     7.06610e-01,
@@ -52,7 +52,7 @@ class ARM(DHRobot):
                 alpha=np.pi/2,
                 qlim=np.array([-np.pi/2,np.pi/2]),
                 #mass of part 3
-                m=2,
+                m=1,
                 I=[
                     7.03370e-01,
                     7.06610e-01,
@@ -70,7 +70,7 @@ class ARM(DHRobot):
                 alpha=0.0,
                 qlim=np.array([-np.pi/2,np.pi/2]),
                 #mass of part 4
-                m=2,
+                m=1,
                 I=[
                     7.03370e-01,
                     7.06610e-01,
